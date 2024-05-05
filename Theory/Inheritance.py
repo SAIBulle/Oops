@@ -94,8 +94,8 @@ class Bicycle(Vehical):
     
 
 
-car1 = Car("Petrol", "Passinger", "Tyota", 2024, 25000)
-car2 = Car("EV", "Personal", "Honda", 2023, 25000)
+car1 = Car("Petrol", "Passinger", "Tyota", 2024, 2500)
+car2 = Car("EV", "Personal", "Honda", 2023, 3500)
 print(car1.calculate_maintenance_cost())
 print(car2.calculate_maintenance_cost())
 print(car1.calculate_tax())
@@ -103,6 +103,6 @@ print(car1.calculate_insurance_premium())
 Vehical1 = Vehical("Honda", "2023", 2500)
 Vehical1.display_info()
 
-# print(Car.get_total_count())
+print(Car.get_total_count())
 
 
