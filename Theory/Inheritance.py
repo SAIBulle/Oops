@@ -104,5 +104,3 @@ Vehical1 = Vehical("Honda", "2023", 2500)
 Vehical1.display_info()
 
 print(Car.get_total_count())
-
-
